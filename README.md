@@ -1,7 +1,7 @@
-# AttendEase - Face Recognition Attendance System
+# SAY MY NAME - Face Recognition Attendance System
 
 ## Overview
-This project is **AttendEase**, a **Face Recognition Attendance System** developed using Python, OpenCV, and Firebase. It allows students to log their attendance by scanning their faces, and admins can view attendance records and generate reports.
+This project is **Say My Name**, a **Face Recognition Attendance System** developed using Python, OpenCV, and Firebase. It allows students to log their attendance by scanning their faces, and admins can view attendance records and generate reports.
 
 ## Features
 - **Student Authentication:** Uses face recognition to verify student identity and log attendance.
