@@ -30,8 +30,8 @@ Ensure you have the following installed:
 ### Steps
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/AttendEase.git
-   cd AttendEase
+   git clone https://github.com/yourusername/SayMyName.git
+   cd SayMyName
    ```
 2. Install dependencies:
    ```sh
