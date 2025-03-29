@@ -1,0 +1,151 @@
+<!-- -------------------------------------- Course Details ------------------------------------------>
+<!-- Module Code and Title    : TNS3143 Biometric Technology                                       -->
+<!-- Program of Study         : Bachelor of Computer Science (Hons) in Cybersecurity               -->
+<!-- Lecturer’s Name          : Mr. Safwan Abd Razak                                               -->
+<!-- Semester                 : SEPTEMBER – DECEMBER 2024                                          -->
+<!----------------------------------------- Student's Details --------------------------------------->
+<!-- Name                                Student Id                                                -->
+<!-- (1) Diong Zi Cheng                  SUKD2200343                                               -->
+<!-- (2) CHUBAASINY A/P ESWARARAO        SUKD2300494                                               -->
+<!-- (3) AL-AMIN ABUBAKAR                SUKD2102346                                               -->
+<!-- ------------------------------------------------------------------------------------------------>
+<!-- Submission Date : 29/11/2024                                                                  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Page</title>
+    <!-- Admin page user interface design -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #f0f8ff, #e6f2ff);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #fff;
+            padding: 10px 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .logo-container {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo img {
+            height: 50px;
+            margin-right: 10px;
+        }
+
+        .header-title {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #333;
+        }
+
+        h1 {
+            font-size: 2em;
+            color: black;
+            text-align: center;
+            margin: 30px 0 0 0;
+        }
+
+        main {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 20px;
+        }
+
+        .action-button {
+            padding: 15px 20px; 
+            border: none;
+            border-radius: 10px;
+            background-color: green;
+            color: white;
+            font-size: 1.2em;
+            font-weight: bold;
+            cursor: pointer;
+            transition: transform 0.3s, background-color 0.3s;
+        }
+
+        .action-button:hover {
+            background-color: #228b22;
+            transform: scale(1.1);
+        }
+
+        footer {
+            background-color: #fff;
+            text-align: center;
+            padding: 10px;
+            margin-top: auto;
+            box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .footer-text {
+            font-size: 0.9em;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <!-- Display attendance system logo on the top -->
+    <header>
+        <div class="logo-container">
+            <div class="logo">
+                <img src="logo.png" alt="Logo">
+            </div>
+            <div class="header-title">Admin Portal</div>
+        </div>
+    </header>
+
+    <h1>Admin Dashboard</h1>
+
+    <main>
+        <div class="button-container">
+            <!-- Open Google Sheets to view students' attendance details -->
+            <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQtlK-FT3ywarYarN8z8ZUL8AnpQGg_uEjYIY4-pNcWCoIhTqqCttApdn1juXBKEUNMIkrs5TJxfZ65/pubhtml?gid=0&single=true" target="_blank">
+                <button class="action-button">View Attendance Spreadsheet</button>
+            </a>
+
+            <!-- Print students' attendance report in XML format . Can find the report in Downloads Folder on device -->
+            <a href="https://docs.google.com/spreadsheets/d/1TwR3ZeijoI7FcGYjXnxvY118DxVs5wZNNH6aEQYDTqY/export?format=xlsx">
+                <button class="action-button">Print XML Format</button>
+            </a>
+            
+            <!-- Print students' attendance report in PDF format . Can find the report in Downloads Folder on device -->
+            <a href="https://docs.google.com/spreadsheets/d/1TwR3ZeijoI7FcGYjXnxvY118DxVs5wZNNH6aEQYDTqY/export?format=pdf">
+                <button class="action-button">Print PDF Format</button>
+            </a>
+        </div>
+    </main>
+
+    <!-- Text displayed in the footer -->
+    <footer>
+        <p class="footer-text">Admin Portal © 2024 | All rights reserved</p>
+    </footer>
+</body>
+</html>
